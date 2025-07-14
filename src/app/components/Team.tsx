@@ -44,8 +44,8 @@ const teamMembers = [
 
 const MeetOurTeam: React.FC = () => {
   return (
-    <section className="min-h-screen w-full bg-white py-20 px-4 sm:px-8 lg:px-24">
-      <div className="text-center mb-16">
+    <section className="min-h-screen w-full bg-white py-5 px-4 sm:px-8 lg:px-24 scroll-mt-25" id="team">
+      <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-3">
           Meet <span className="text-red-600">Our Team</span>
         </h2>
@@ -57,7 +57,7 @@ const MeetOurTeam: React.FC = () => {
       <div className="relative max-w-6xl mx-auto">
         <div className="hidden md:block absolute top-0 bottom-0 left-1/2 w-1 bg-red-100 transform -translate-x-1/2"></div>
 
-        <div className="space-y-16">
+        <div className="space-y-14">
           {teamMembers.map((member, index) => (
             <motion.div
               key={index}
