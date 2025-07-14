@@ -119,9 +119,9 @@ const ContactUs: React.FC = () => {
             <h4 className="text-lg font-bold text-gray-800 mb-2">Follow Us</h4>
             <div className="flex space-x-3 mt-2">
               <SocialIcon url="https://x.com/" bgColor="#000" style={{ height: 28, width: 28 }} />
-              <SocialIcon url="https://instagram.com/" style={{ height: 28, width: 28 }} />
+              <SocialIcon url="https://www.instagram.com/mightyfive.agency?igsh=YXJ2eWY1cTBjZHpp" style={{ height: 28, width: 28 }} />
               <SocialIcon url="https://facebook.com/" style={{ height: 28, width: 28 }} />
-              <SocialIcon url="https://linkedin.com/" style={{ height: 28, width: 28 }} />
+              <SocialIcon url="https://www.linkedin.com/company/mighty-five-agency/posts/?feedView=all" style={{ height: 28, width: 28 }} />
             </div>
           </div>
         </div>
